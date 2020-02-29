@@ -1,4 +1,4 @@
-# Ride-Safe
+# Trip-Safe
 ## Things to do:
 <li> 1.Login/signup
 <li> 2.Add emergency contacts
