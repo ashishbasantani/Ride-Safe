@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ride Safe</string>
+    <string name="app_name">Trip Safe</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="color">red</string>

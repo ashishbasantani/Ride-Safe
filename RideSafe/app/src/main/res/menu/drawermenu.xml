@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item android:id="@+id/Home" android:title="Home" android:icon="@drawable/ic_home"/>
+<item android:id="@+id/Profile" android:title="Profile" android:icon="@drawable/ic_profile1"/>
 <item android:id="@+id/AddContacts" android:title="Add Contacts" android:icon="@drawable/ic_contacts"/>
 <item android:id="@+id/ViewContacts" android:title="View Contacts" android:icon="@drawable/ic_view_contacts"/>
+<item android:id="@+id/VInbox" android:title="Volunteer Inbox" android:icon="@drawable/ic_profile"/>
+<item android:id="@+id/EInbox" android:title="Emergency Inbox" android:icon="@drawable/ic_profile"/>
+<item android:id="@+id/Feedback" android:title="Feedbakc" android:icon="@drawable/ic_feedback"/>
+<item android:id="@+id/Instruction" android:title="Instruction" android:icon="@drawable/ic_instrauction"/>
+<item android:id="@+id/AppInfo" android:title="App Info" android:icon="@drawable/ic_info"/>
+<item android:id="@+id/About" android:title="About" android:icon="@drawable/ic_info"/>
 <item android:id="@+id/Logout" android:title="Logout"/>
 </menu>
