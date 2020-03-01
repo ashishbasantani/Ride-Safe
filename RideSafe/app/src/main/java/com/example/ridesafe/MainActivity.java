@@ -60,13 +60,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.Home) {
             fragment=new GoogleMap();
         }
-        /*else if(id==R.id.nav_add_contact){
-            fragment=new Contacts();
+        else if(id==R.id.AddContacts) {
+            fragment = new fragment_add_contact();
         }
+        /*
         else if(id==R.id.nav_see_contact){
             fragment=new SeeContacts();
-        }*/
-        /*else if (id == R.id.nav_gallery) {
+        }
+        else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
