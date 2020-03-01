@@ -11,8 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class AddContact extends Fragment {
@@ -23,7 +25,7 @@ public class AddContact extends Fragment {
     SQLiteconn db;
     Button submit;
     String n,m,p;
-    TextInputLayout name,phone;
+   EditText name,phone;
     private String mParam1;
     private String mParam2;
 
@@ -60,11 +62,13 @@ public class AddContact extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
-        db=new SQLiteconn(view.getContext().getApplicationContext());
-
         name=view.findViewById(R.id.name);
         phone=view.findViewById(R.id.phoneNumber);
+        db=new SQLiteconn(view.getContext().getApplicationContext());
+
+        //name=(TextInputEditText)view.findViewById(R.id.name);
+        //phone=(TextInputEditText)view.findViewById(R.id.phoneNumber);
+
 
 
 
@@ -81,7 +85,9 @@ public class AddContact extends Fragment {
                         else {*/
                         //n=name.getText().toString();
                         //m=mobile.getText().toString();
-
+                        n=name.getText().toString();
+                        m=phone.getText().toString();
+                        Log.e("On click kiya",""+m+" "+n);
                         Log.d("flow checking","kk");
                         Log.e("before call", "onClick: "+n+" "+m+" "+p);
                         boolean flag = db.insert(""+n, ""+m, ""+p);
