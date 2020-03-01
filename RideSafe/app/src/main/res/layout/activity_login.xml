@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textAlignment="center"
-                    android:text="Ride Safe"
+                    android:text="Trip Safe"
                     android:textColor="#939488"
                     android:textSize="17sp" />
 

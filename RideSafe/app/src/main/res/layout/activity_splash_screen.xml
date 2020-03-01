@@ -27,12 +27,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
         android:fontFamily="serif-monospace"
-        android:text="Ride Safe"
+        android:text="Trip Safe"
+        android:textAlignment="center"
         android:textColor="#FFD300"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp"
-        android:textAlignment="center"/>
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

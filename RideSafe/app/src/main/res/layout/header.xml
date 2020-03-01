@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ride Safe"
+        android:text="Trip Safe"
         android:textColor="@color/silver"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
